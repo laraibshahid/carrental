@@ -1,0 +1,947 @@
+INFO 2025-08-03 12:33:20,654 autoreload 36515 140545631123264 Watching for file changes with StatReloader
+INFO 2025-08-03 12:34:41,197 basehttp 36515 140545477170944 "POST /api/v1/register/ HTTP/1.1" 201 858
+INFO 2025-08-03 12:34:41,583 basehttp 36515 140545477170944 "POST /api/v1/login/ HTTP/1.1" 200 846
+INFO 2025-08-03 12:34:41,589 basehttp 36515 140545477170944 "GET /api/v1/profile/ HTTP/1.1" 200 315
+INFO 2025-08-03 12:36:24,628 autoreload 36515 140545631123264 /home/hailu/Documents/Test/CarRental/car_rental/urls.py changed, reloading.
+INFO 2025-08-03 12:36:25,080 autoreload 36993 140714379040576 Watching for file changes with StatReloader
+INFO 2025-08-03 12:37:16,066 basehttp 36993 140714292238080 "POST /api/v1/login/ HTTP/1.1" 200 846
+INFO 2025-08-03 12:37:16,098 basehttp 36993 140714292238080 "POST /api/v1/vehicles/ HTTP/1.1" 201 865
+INFO 2025-08-03 12:37:16,117 basehttp 36993 140714292238080 "GET /api/v1/vehicles/ HTTP/1.1" 200 357
+INFO 2025-08-03 12:37:16,142 basehttp 36993 140714292238080 "GET /api/v1/vehicles/1/ HTTP/1.1" 200 824
+WARNING 2025-08-03 12:37:16,165 log 36993 140714292238080 Bad Request: /api/v1/vehicles/1/
+WARNING 2025-08-03 12:37:16,165 basehttp 36993 140714292238080 "PUT /api/v1/vehicles/1/ HTTP/1.1" 400 217
+INFO 2025-08-03 12:37:16,185 basehttp 36993 140714292238080 "GET /api/v1/vehicles/search/?vehicle_type=sedan&search=Toyota HTTP/1.1" 200 357
+INFO 2025-08-03 12:37:46,485 autoreload 36993 140714379040576 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 12:37:46,932 autoreload 37280 140226014508864 Watching for file changes with StatReloader
+INFO 2025-08-03 12:39:06,673 basehttp 37280 140225927706368 "POST /api/v1/login/ HTTP/1.1" 200 846
+WARNING 2025-08-03 12:39:06,680 log 37280 140225850373888 Bad Request: /api/v1/vehicles/
+WARNING 2025-08-03 12:39:06,681 basehttp 37280 140225850373888 "POST /api/v1/vehicles/ HTTP/1.1" 400 135
+INFO 2025-08-03 12:39:06,698 basehttp 37280 140225850373888 "GET /api/v1/vehicles/ HTTP/1.1" 200 357
+INFO 2025-08-03 12:39:06,710 basehttp 37280 140225850373888 "GET /api/v1/vehicles/search/?vehicle_type=sedan&search=Toyota HTTP/1.1" 200 357
+INFO 2025-08-03 12:44:50,875 autoreload 37280 140226014508864 /home/hailu/Documents/Test/CarRental/car_rental/urls.py changed, reloading.
+INFO 2025-08-03 12:44:51,413 autoreload 38033 140670673569600 Watching for file changes with StatReloader
+INFO 2025-08-03 12:45:27,481 basehttp 38033 140670513706752 "POST /api/v1/login/ HTTP/1.1" 200 846
+INFO 2025-08-03 12:45:27,492 basehttp 38033 140670513706752 "GET /api/v1/vehicles/search/ HTTP/1.1" 200 357
+ERROR 2025-08-03 12:45:27,503 log 38033 140670513706752 Internal Server Error: /api/v1/bookings/
+ERROR 2025-08-03 12:45:27,504 basehttp 38033 140670513706752 "POST /api/v1/bookings/ HTTP/1.1" 500 136
+INFO 2025-08-03 12:45:27,519 basehttp 38033 140670513706752 "GET /api/v1/bookings/ HTTP/1.1" 200 76
+INFO 2025-08-03 12:45:27,535 basehttp 38033 140670513706752 "GET /api/v1/bookings/search/?status=pending&from=2024-01-01 HTTP/1.1" 200 76
+INFO 2025-08-03 12:46:04,715 autoreload 38033 140670673569600 /home/hailu/Documents/Test/CarRental/bookings/serializers.py changed, reloading.
+INFO 2025-08-03 12:46:05,151 autoreload 38480 140560084961088 Watching for file changes with StatReloader
+INFO 2025-08-03 12:46:40,861 basehttp 38480 140559997896448 "POST /api/v1/login/ HTTP/1.1" 200 846
+INFO 2025-08-03 12:46:40,875 basehttp 38480 140559918298880 "GET /api/v1/vehicles/search/ HTTP/1.1" 200 357
+ERROR 2025-08-03 12:46:40,896 log 38480 140559918298880 Internal Server Error: /api/v1/bookings/
+ERROR 2025-08-03 12:46:40,896 basehttp 38480 140559918298880 "POST /api/v1/bookings/ HTTP/1.1" 500 1388
+INFO 2025-08-03 12:46:40,908 basehttp 38480 140559918298880 "GET /api/v1/bookings/ HTTP/1.1" 200 76
+INFO 2025-08-03 12:46:40,927 basehttp 38480 140559918298880 "GET /api/v1/bookings/search/?status=pending&from=2024-01-01 HTTP/1.1" 200 76
+INFO 2025-08-03 12:47:17,406 autoreload 38480 140560084961088 /home/hailu/Documents/Test/CarRental/bookings/models.py changed, reloading.
+INFO 2025-08-03 12:47:17,919 autoreload 38713 140622033831744 Watching for file changes with StatReloader
+INFO 2025-08-03 12:47:30,626 basehttp 38713 140621946767104 "POST /api/v1/login/ HTTP/1.1" 200 846
+INFO 2025-08-03 12:47:30,644 basehttp 38713 140621946767104 "GET /api/v1/vehicles/search/ HTTP/1.1" 200 357
+INFO 2025-08-03 12:47:30,684 basehttp 38713 140621946767104 "POST /api/v1/bookings/ HTTP/1.1" 201 1213
+INFO 2025-08-03 12:47:30,710 basehttp 38713 140621946767104 "GET /api/v1/bookings/ HTTP/1.1" 200 638
+INFO 2025-08-03 12:47:30,735 basehttp 38713 140621946767104 "GET /api/v1/bookings/1/ HTTP/1.1" 200 1172
+INFO 2025-08-03 12:47:30,768 basehttp 38713 140621946767104 "POST /api/v1/bookings/1/confirm/ HTTP/1.1" 200 1217
+INFO 2025-08-03 12:47:30,791 basehttp 38713 140621946767104 "GET /api/v1/bookings/search/?status=pending&from=2024-01-01 HTTP/1.1" 200 76
+INFO 2025-08-03 12:54:00,452 autoreload 38713 140622033831744 /home/hailu/Documents/Test/CarRental/car_rental/settings.py changed, reloading.
+INFO 2025-08-03 12:54:01,115 autoreload 39552 139931444746048 Watching for file changes with StatReloader
+INFO 2025-08-03 12:58:17,528 autoreload 39552 139931444746048 /home/hailu/Documents/Test/CarRental/payment_processing/models.py changed, reloading.
+INFO 2025-08-03 12:58:18,001 autoreload 40157 140130824296256 Watching for file changes with StatReloader
+INFO 2025-08-03 13:28:03,549 autoreload 44008 140317034067776 Watching for file changes with StatReloader
+INFO 2025-08-03 13:32:43,190 autoreload 44615 139629715068736 Watching for file changes with StatReloader
+INFO 2025-08-03 13:33:25,340 autoreload 44888 140560340547392 Watching for file changes with StatReloader
+INFO 2025-08-03 13:34:49,001 autoreload 45183 140680861951808 Watching for file changes with StatReloader
+INFO 2025-08-03 13:36:33,155 autoreload 45526 140066256631616 Watching for file changes with StatReloader
+WARNING 2025-08-03 13:36:37,427 log 45526 140066102433536 Not Found: /
+WARNING 2025-08-03 13:36:37,428 basehttp 45526 140066102433536 "GET / HTTP/1.1" 404 2813
+WARNING 2025-08-03 13:36:37,750 log 45526 140066102433536 Not Found: /favicon.ico
+WARNING 2025-08-03 13:36:37,760 basehttp 45526 140066102433536 "GET /favicon.ico HTTP/1.1" 404 2864
+INFO 2025-08-03 13:36:47,579 basehttp 45526 140066102433536 "GET /swagger/ HTTP/1.1" 200 2161
+INFO 2025-08-03 13:36:47,600 basehttp 45526 140066102433536 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-08-03 13:36:47,616 basehttp 45526 140065862842112 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-08-03 13:36:47,619 basehttp 45526 140065854449408 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-08-03 13:36:47,621 basehttp 45526 140066093516544 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-08-03 13:36:47,622 basehttp 45526 140066076206848 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-08-03 13:36:47,625 basehttp 45526 140065862842112 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2025-08-03 13:36:47,630 basehttp 45526 140066084599552 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+WARNING 2025-08-03 13:36:47,865 base 45526 140065862842112 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,867 base 45526 140065862842112 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,868 base 45526 140065862842112 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,869 base 45526 140065862842112 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,869 base 45526 140065862842112 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,870 base 45526 140065862842112 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+WARNING 2025-08-03 13:36:47,871 base 45526 140065862842112 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3cb640>.
+INFO 2025-08-03 13:36:47,985 basehttp 45526 140066102433536 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-08-03 13:36:48,048 basehttp 45526 140065862842112 "GET /swagger/?format=openapi HTTP/1.1" 200 28945
+WARNING 2025-08-03 13:43:24,333 log 45526 140065846056704 Not Found: /register/
+WARNING 2025-08-03 13:43:24,333 basehttp 45526 140065846056704 "GET /register/ HTTP/1.1" 404 2858
+WARNING 2025-08-03 13:43:36,027 log 45526 140065846056704 Not Found: /api/v1/
+WARNING 2025-08-03 13:43:36,028 basehttp 45526 140065846056704 "GET /api/v1/ HTTP/1.1" 404 4445
+WARNING 2025-08-03 13:43:43,075 log 45526 140065846056704 Method Not Allowed: /api/v1/register/
+WARNING 2025-08-03 13:43:43,075 basehttp 45526 140065846056704 "GET /api/v1/register/ HTTP/1.1" 405 116
+INFO 2025-08-03 13:45:57,012 basehttp 45526 140065854449408 "POST /api/v1/register/ HTTP/1.1" 201 874
+WARNING 2025-08-03 13:46:34,900 log 45526 140065846056704 Bad Request: /api/v1/login/
+WARNING 2025-08-03 13:46:34,900 basehttp 45526 140065846056704 "POST /api/v1/login/ HTTP/1.1" 400 145
+WARNING 2025-08-03 13:47:20,891 log 45526 140065862842112 Bad Request: /api/v1/register/
+WARNING 2025-08-03 13:47:20,892 basehttp 45526 140065862842112 "POST /api/v1/register/ HTTP/1.1" 400 280
+WARNING 2025-08-03 13:47:31,439 log 45526 140065862842112 Bad Request: /api/v1/login/
+WARNING 2025-08-03 13:47:31,439 basehttp 45526 140065862842112 "POST /api/v1/login/ HTTP/1.1" 400 106
+INFO 2025-08-03 13:47:40,484 basehttp 45526 140065862842112 "POST /api/v1/login/ HTTP/1.1" 200 862
+INFO 2025-08-03 13:48:17,304 basehttp 45526 140065846056704 "GET /swagger/ HTTP/1.1" 200 2161
+INFO 2025-08-03 13:48:17,338 basehttp 45526 140065846056704 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,349 basehttp 45526 140066102433536 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,354 basehttp 45526 140066102433536 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,357 basehttp 45526 140066076206848 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,364 basehttp 45526 140066084599552 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,369 basehttp 45526 140065829271296 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-08-03 13:48:17,369 basehttp 45526 140065837664000 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+WARNING 2025-08-03 13:48:17,649 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,650 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,650 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,651 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,651 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,652 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+WARNING 2025-08-03 13:48:17,652 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3e1c40>.
+INFO 2025-08-03 13:48:17,741 basehttp 45526 140066102433536 "GET /swagger/?format=openapi HTTP/1.1" 200 28945
+WARNING 2025-08-03 13:48:20,442 log 45526 140066102433536 Not Found: /
+WARNING 2025-08-03 13:48:20,443 basehttp 45526 140066102433536 "GET / HTTP/1.1" 404 2813
+WARNING 2025-08-03 13:48:34,655 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,657 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,658 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,659 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,660 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,661 base 45526 140066102433536 view's BookingDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/bookings/views.py", line 103, in get_queryset
+    return Booking.objects.filter(customer=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+WARNING 2025-08-03 13:48:34,662 base 45526 140066102433536 view's VehicleDetailView raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/contrib/auth/models.py", line 437, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/hailu/Documents/Test/CarRental/vehicles/views.py", line 101, in get_queryset
+    return Vehicle.objects.filter(owner=self.request.user)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/hailu/Documents/Test/CarRental/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f63ad3b5670>.
+INFO 2025-08-03 13:48:34,792 basehttp 45526 140066102433536 "GET /api-docs/ HTTP/1.1" 200 34416
+INFO 2025-08-03 13:49:26,409 basehttp 45526 140065837664000 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-03 13:49:26,443 basehttp 45526 140065837664000 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-08-03 13:49:26,512 basehttp 45526 140065837664000 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-03 13:49:26,518 basehttp 45526 140066076206848 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-03 13:49:26,520 basehttp 45526 140065846056704 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-03 13:49:26,521 basehttp 45526 140066084599552 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-03 13:49:26,522 basehttp 45526 140066102433536 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-03 13:49:26,529 basehttp 45526 140065846056704 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-03 13:49:26,529 basehttp 45526 140066084599552 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-03 13:49:28,713 basehttp 45526 140065846056704 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-03 13:49:28,736 basehttp 45526 140065846056704 "GET /admin/ HTTP/1.1" 200 5152
+INFO 2025-08-03 13:49:28,811 basehttp 45526 140065846056704 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-08-03 13:49:28,863 basehttp 45526 140065846056704 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-03 13:49:28,864 basehttp 45526 140066084599552 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-08-03 13:51:34,112 log 45526 140065829271296 Unauthorized: /api/v1/vehicles/
+WARNING 2025-08-03 13:51:34,113 basehttp 45526 140065829271296 "GET /api/v1/vehicles/ HTTP/1.1" 401 152
+INFO 2025-08-03 13:52:20,739 basehttp 45526 140065829271296 "POST /api/v1/login/ HTTP/1.1" 200 862
+WARNING 2025-08-03 13:53:26,818 log 45526 140065820878592 Unauthorized: /api/v1/vehicles/
+WARNING 2025-08-03 13:53:26,826 basehttp 45526 140065820878592 "GET /api/v1/vehicles/ HTTP/1.1" 401 152
+INFO 2025-08-03 13:54:07,150 basehttp 45526 140065820878592 "GET /api/v1/vehicles/ HTTP/1.1" 200 76
+WARNING 2025-08-03 13:56:23,742 log 45526 140065837664000 Bad Request: /api/v1/vehicles/
+WARNING 2025-08-03 13:56:23,743 basehttp 45526 140065837664000 "POST /api/v1/vehicles/ HTTP/1.1" 400 135
+INFO 2025-08-03 13:56:39,228 basehttp 45526 140065837664000 "POST /api/v1/vehicles/ HTTP/1.1" 201 838
+INFO 2025-08-03 13:56:48,048 basehttp 45526 140065837664000 "GET /api/v1/vehicles/ HTTP/1.1" 200 357
+INFO 2025-08-03 13:57:40,528 basehttp 45526 140065837664000 "GET /api/v1/bookings/ HTTP/1.1" 200 76
+WARNING 2025-08-03 13:58:19,492 log 45526 140065837664000 Bad Request: /api/v1/bookings/
+WARNING 2025-08-03 13:58:19,500 basehttp 45526 140065837664000 "POST /api/v1/bookings/ HTTP/1.1" 400 118
+INFO 2025-08-03 13:58:43,929 basehttp 45526 140065837664000 "POST /api/v1/bookings/ HTTP/1.1" 201 1216
+WARNING 2025-08-03 13:58:47,347 log 45526 140065837664000 Bad Request: /api/v1/bookings/
+WARNING 2025-08-03 13:58:47,348 basehttp 45526 140065837664000 "POST /api/v1/bookings/ HTTP/1.1" 400 145
+WARNING 2025-08-03 13:59:17,279 log 45526 140065837664000 Bad Request: /api/v1/vehicles/
+WARNING 2025-08-03 13:59:17,287 basehttp 45526 140065837664000 "POST /api/v1/vehicles/ HTTP/1.1" 400 135
+INFO 2025-08-03 13:59:22,118 basehttp 45526 140065837664000 "GET /api/v1/vehicles/ HTTP/1.1" 200 357
+INFO 2025-08-03 14:02:00,270 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search=2022 HTTP/1.1" 200 76
+INFO 2025-08-03 14:02:06,913 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search= HTTP/1.1" 200 639
+INFO 2025-08-03 14:02:12,039 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search=Toyota HTTP/1.1" 200 639
+INFO 2025-08-03 14:02:20,791 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search=2 HTTP/1.1" 200 639
+INFO 2025-08-03 14:02:27,219 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search=2022 HTTP/1.1" 200 76
+INFO 2025-08-03 14:02:47,391 basehttp 45526 140066102433536 "GET /api/v1/vehicles/search/?search= HTTP/1.1" 200 639
+INFO 2025-08-03 14:03:47,330 autoreload 45526 140066256631616 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 14:03:47,782 autoreload 50325 140195686594368 Watching for file changes with StatReloader
+ERROR 2025-08-03 14:03:51,638 log 50325 140195599529728 Internal Server Error: /api/v1/vehicles/search/
+ERROR 2025-08-03 14:03:51,639 basehttp 50325 140195599529728 "GET /api/v1/vehicles/search/?search= HTTP/1.1" 500 135
+INFO 2025-08-03 14:04:28,007 autoreload 50325 140195686594368 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 14:04:28,613 autoreload 50535 140285779150656 Watching for file changes with StatReloader
+INFO 2025-08-03 14:05:18,144 autoreload 50535 140285779150656 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 14:05:18,636 autoreload 50769 140546496427840 Watching for file changes with StatReloader
+INFO 2025-08-03 14:05:29,622 basehttp 50769 140546342246144 "GET /api/v1/vehicles/search/?search= HTTP/1.1" 200 639
+ERROR 2025-08-03 14:05:40,074 log 50769 140546342246144 Internal Server Error: /api/v1/vehicles/search/
+ERROR 2025-08-03 14:05:40,082 basehttp 50769 140546342246144 "GET /api/v1/vehicles/search/?search=2022 HTTP/1.1" 500 361
+INFO 2025-08-03 14:06:25,666 autoreload 50769 140546496427840 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 14:06:26,203 autoreload 51135 140164319192896 Watching for file changes with StatReloader
+INFO 2025-08-03 14:06:37,835 basehttp 51135 140164164994816 "GET /api/v1/vehicles/search/?search=2022 HTTP/1.1" 200 639
+INFO 2025-08-03 14:06:46,959 autoreload 51135 140164319192896 /home/hailu/Documents/Test/CarRental/vehicles/views.py changed, reloading.
+INFO 2025-08-03 14:06:47,387 autoreload 51307 140502640953152 Watching for file changes with StatReloader
