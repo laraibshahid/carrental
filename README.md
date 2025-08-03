@@ -67,8 +67,8 @@ This API serves as the backend for LahoreCarRental.com's frontend, providing:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd CarRental
+   git clone https://github.com/laraibshahid/carrental.git
+   cd carrental
    ```
 
 2. **Create virtual environment**
@@ -301,7 +301,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support or questions about this project:
 - Create an issue in the repository
 - Contact: [Your Email]
-- Project URL: [Repository URL]
+- Project URL: https://github.com/laraibshahid/carrental.git
 
 ---
 
